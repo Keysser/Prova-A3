@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    background-color: #d28fff;
+    background-image: url('fundo.jpg');
+    background-repeat: no-repeat; /* A imagem será replicada */
+    background-size:cover; /* Tamanho original da imagem */
+    margin: 0;;
+    padding: 0;
+}
+
+/* Cabeçalho */
+#header {
+    background-color: rgb(117, 126, 252);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-image: url("fmplogoprof.png") ;
+    background-repeat: no-repeat ;
+    background-position: 20px center;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+/* Menu */
+#menu {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+#menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: #ccc;
+}
+
+#main-content {
+    padding: 20px;
+    text-align: left;
+    margin-right: 220px; /* Adiciona espaço para o slideshow */
+    color: rgb(0, 0, 0)
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(117, 126, 252);
+    color: #fff;
+    padding: 10px 0;
+    z-index: 2; /* Para ficar acima do conteúdo */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+.borda-preta {
+    color: white;
+    background-color: rgb(117, 126, 252);
+    border: 1px solid black;
+    padding: 10px; /* adicionei um padding para deixar o texto mais espaçado da borda */
+}
